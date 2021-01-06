@@ -8,6 +8,7 @@
 		dots: false,
 		autoplay: true,
 		autoplaySpeed: 1000,
+		rtl: true,
 		arrows: true,
 		adaptiveHeight: true,
 		responsive: [

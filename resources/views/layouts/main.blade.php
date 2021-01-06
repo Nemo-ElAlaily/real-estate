@@ -72,7 +72,13 @@
             <script src="{{ asset('public/js/mmenu.min.js') }}"></script>
             <script src="{{ asset('public/js/mmenu.js') }}"></script>
             <script src="{{ asset('public/js/slick.min.js') }}"></script>
-            <script src="{{ asset('public/js/slick3.js') }}"></script>
+
+            @if (LaravelLocalization::getCurrentLocaleDirection() == 'ltr' )
+                <script src="{{ asset('public/js/slick3.js') }}"></script>
+            @else
+                <script src="{{ asset('public/js/slick3-ar.js') }}"></script>
+            @endif
+            
             <script src="{{ asset('public/js/fitvids.js') }}"></script>
             <script src="{{ asset('public/js/jquery.waypoints.min.js') }}"></script>
             <script src="{{ asset('public/js/jquery.counterup.min.js') }}"></script>
@@ -110,8 +116,6 @@
             <!-- MAIN JS -->
             <script src="{{ asset('public/js/script.js') }}"></script>          
         @endif
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 </body>
 </html>
