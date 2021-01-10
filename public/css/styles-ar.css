@@ -4321,6 +4321,7 @@ section.counterup {
 .navigation ul li {
   margin-bottom: 1rem;
   border-bottom: 1px dotted #666;
+  margin-left: 40px;
 }
 
 .navigation ul li.no-mgb {
@@ -10514,7 +10515,7 @@ section.h18.testimonials {
   border-top: 16px solid #f55d2c;
   content: "";
   height: 0;
-  left: 12px;
+  right: 12px;
   position: absolute;
   width: 0;
   -webkit-transform: rotate(0);
@@ -10548,6 +10549,7 @@ section.h18.testimonials {
 .h18.testimonials .client-reviews i {
   color: #e54242;
   font-size: 13px;
+  transform: rotateY(180deg);
 }
 
 .h18.testimonials .client-comment > ul {
@@ -10596,7 +10598,7 @@ section.h18.testimonials {
   background: #f55d2c;
   top: 18px;
   content: "";
-  left: -60px;
+  right: -60px;
 }
 
 .h18.testimonials .sec-title p {

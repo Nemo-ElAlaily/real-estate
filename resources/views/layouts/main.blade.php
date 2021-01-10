@@ -114,7 +114,13 @@
             <script src="{{ asset('public/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
 
             <!-- MAIN JS -->
-            <script src="{{ asset('public/js/script.js') }}"></script>          
+
+            @if (LaravelLocalization::getCurrentLocaleDirection() == 'ltr' )
+                <script src="{{ asset('public/js/script.js') }}"></script>  
+            @else
+                <script src="{{ asset('public/js/script-ar.js') }}"></script>  
+            @endif
+                    
         @endif
 
 </body>
