@@ -1,24 +1,24 @@
 <div class="agents-grid">
-    <div class="landscapes shadow-lg">
+    <div class="landscapes">
         <div class="project-single">
             <div class="project-inner project-head">
                 <div class="project-bottom">
-                    <h4><a href="#">{{ __('index.view')}}</a><span class="category">Real Estate</span>
+                    <h4><a href="#">View Property</a><span class="category">Real Estate</span>
                     </h4>
                 </div>
                 <div class="homes">
                     <!-- homes img -->
                     <a href="#" class="homes-img">
-                        <div class="homes-tag button alt featured">Featured</div> <!-- العفار متميز  --> 
-                        <div class="homes-tag button alt sale">For Sale</div> <!-- العقار للبيع --> 
-                        <div class="homes-price">Family Home</div> <!-- نوع العقار --> 
+                        <div class="homes-tag button alt featured">Featured</div>
+                        <div class="homes-tag button alt sale">For Sale</div>
+                        <div class="homes-price">Family Home</div>
                         <img src="{{ asset('public/images/feature-properties/fp-1.jpg') }}" alt="home-1"
-                            class="img-responsive" width="100%">
+                            class="img-responsive">
                     </a>
                 </div>
                 <div class="button-effect">
                     <a href="#" class="btn"><i class="fa fa-link"></i></a>
-                    <a href="https://www.youtube.com/watch?v=2xHQqYRcrx4"
+                    <a href="https://www.youtube.com/watch?v=2xHQqYRcrx4" target="_blank"
                         class="btn popup-video popup-youtube"><i class="fas fa-video"></i></a>
                     <a href="#" class="img-poppu btn"><i class="fa fa-photo"></i></a>
                 </div>

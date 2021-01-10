@@ -8,28 +8,12 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/public/favicon.ico') }}">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i%7CMontserrat:600,800" rel="stylesheet">
-
     @if(Route::is('homepage'))
         <!-- FONT AWESOME -->
         <link rel="stylesheet" href="{{ asset('public/css/fontawesome-all.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('/public/css/font-awesome.min.css') }}">
-        <!-- LEAFLET MAP -->
-        <link rel="stylesheet" href="{{ asset('public/css/leaflet.css') }}">
-        <link rel="stylesheet" href="{{ asset('public/css/leaflet-gesture-handling.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('public/css/leaflet.markercluster.css') }}">
-        <link rel="stylesheet" href="{{ asset('public/css/leaflet.markercluster.default.css') }}">
-        <!-- Slider Revolution CSS Files -->
-        <link rel="stylesheet" href="{{ asset('public/revolution/css/settings.css') }}">
-        <link rel="stylesheet" href="{{ asset('public/revolution/css/layers.css') }}">
-        <link rel="stylesheet" href="{{ asset('public/revolution/css/navigation.css') }}">
-        <!-- ARCHIVES CSS -->
-        <link rel="stylesheet" href="{{ asset('public/css/animate.css') }}">
-        <link rel="stylesheet" href="{{ asset('public/css/magnific-popup.css') }}">
-        <link rel="stylesheet" href="{{ asset('public/css/lightcase.css') }}">
         <link rel="stylesheet" href="{{ asset('public/css/owl.carousel.min.css') }}">
         <link rel="stylesheet" href="{{ asset('public/css/bootstrap.css') }}">
-
+        
         @if(LaravelLocalization::getCurrentLocaleDirection() == 'ltr' )
             <link rel="stylesheet" href="{{ asset('public/css/menu.css') }}">
             <link rel="stylesheet" href="{{ asset('public/css/styles.css') }}">
@@ -37,8 +21,10 @@
             <link rel="stylesheet" href="{{ asset('public/css/menu-ar.css') }}">
             <link rel="stylesheet" href="{{ asset('public/css/styles-ar.css') }}">
         @endif        
+
+        <link rel="stylesheet" href="{{ asset('public/css/magnific-popup.css') }}">
         <link rel="stylesheet" href="{{ asset('public/css/slick.css') }}">
-        <link rel="stylesheet" id="color" href="{{ asset('public/css/default.css') }}">
+
     @endif
 
 
@@ -62,14 +48,13 @@
 
 
         @if(Route::is('homepage'))
-                <!-- ARCHIVES JS -->
+            <!-- ARCHIVES JS -->
             <script src="{{ asset('public/js/jquery.min.js') }}"></script>
             <script src="{{ asset('public/js/jquery-ui.js') }}"></script>
             <script src="{{ asset('public/js/tether.min.js') }}"></script>
             <script src="{{ asset('public/js/moment.js') }}"></script>
             <script src="{{ asset('public/js/transition.min.js') }}"></script>
             <script src="{{ asset('public/js/bootstrap.min.js') }}"></script>
-            <script src="{{ asset('public/js/mmenu.min.js') }}"></script>
             <script src="{{ asset('public/js/mmenu.js') }}"></script>
             <script src="{{ asset('public/js/slick.min.js') }}"></script>
 

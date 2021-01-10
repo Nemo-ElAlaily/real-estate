@@ -2,12 +2,10 @@
     //------ SLICK CAROUSEL ------//
 -----------------------------------*/
 	$('.slick-lancers').slick({
-		infinite: true,
+		infinite: false,
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		dots: false,
-		autoplay: true,
-		autoplaySpeed: 1000,
 		arrows: true,
 		adaptiveHeight: true,
 		responsive: [

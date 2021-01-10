@@ -19,7 +19,7 @@
                 <div class="button-effect">
                     <a href="#" class="btn"><i class="fa fa-link"></i></a>
                     <a href="https://www.youtube.com/watch?v=2xHQqYRcrx4"
-                        class="btn popup-video popup-youtube"><i class="fas fa-video"></i></a>
+                       class="btn popup-video popup-youtube"><i class="fas fa-video"></i></a>
                     <a href="#" class="img-poppu btn"><i class="fa fa-photo"></i></a>
                 </div>
             </div>

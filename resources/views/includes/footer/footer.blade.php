@@ -14,19 +14,19 @@
                         <ul>
                             <li>
                                 <div class="info">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <i class="fa fa-map-marker px-2" aria-hidden="true"></i>
                                     <p class="in-p">95 South Park Avenue, USA</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="info">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <i class="fa fa-phone px-2" aria-hidden="true"></i>
                                     <p class="in-p">+456 875 369 208</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="info">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <i class="fa fa-envelope px-2" aria-hidden="true"></i>
                                     <p class="in-p ti">support@findhouses.com</p>
                                 </div>
                             </li>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="navigation">
-                        <h3>Navigation</h3>
+                        <h3>{{ __('footer.Navigation') }}</h3>
                         <div class="nav-footer">
                             <ul>
                                 <li><a href="#">{{ __('header.Home') }}</a></li>

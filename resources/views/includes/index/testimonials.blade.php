@@ -12,7 +12,7 @@
                 </div>
                 <div class="clinet-inner">
                     <div class="client-thumb">
-                        <img src="images/testimonials/ts-1.jpg" alt="" />
+                        <img src="{{ asset('public/images/testimonials/ts-1.jpg') }}" alt="" />
                     </div>
                     <div class="client-info">
                         <h2>Lisa Smith</h2>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="clinet-inner">
                     <div class="client-thumb">
-                        <img src="images/testimonials/ts-2.jpg" alt="" />
+                        <img src="{{ asset('public/images/testimonials/ts-2.jpg') }}" alt="" />
                     </div>
                     <div class="client-info">
                         <h2>Jhon Morris</h2>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="clinet-inner">
                     <div class="client-thumb">
-                        <img src="images/testimonials/ts-3.jpg" alt="" />
+                        <img src="{{ asset('public/images/testimonials/ts-3.jpg') }}" alt="" />
                     </div>
                     <div class="client-info">
                         <h2>Mary Deshaw</h2>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="clinet-inner">
                     <div class="client-thumb">
-                        <img src="images/testimonials/ts-4.jpg" alt="" />
+                        <img src="{{ asset('public/images/testimonials/ts-4.jpg') }}" alt="" />
                     </div>
                     <div class="client-info">
                         <h2>Gary Steven</h2>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="clinet-inner">
                     <div class="client-thumb">
-                        <img src="images/testimonials/ts-5.jpg" alt="" />
+                        <img src="{{ asset('public/images/testimonials/ts-5.jpg') }}" alt="" />
                     </div>
                     <div class="client-info">
                         <h2>Cristy Mayer</h2>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="clinet-inner">
                     <div class="client-thumb">
-                        <img src="images/testimonials/ts-6.jpg" alt="" />
+                        <img src="{{ asset('public/images/testimonials/ts-6.jpg') }}" alt="" />
                     </div>
                     <div class="client-info">
                         <h2>Ichiro Tasaka</h2>
