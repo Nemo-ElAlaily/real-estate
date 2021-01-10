@@ -9,8 +9,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/public/favicon.ico') }}">
 
     @if(Route::is('homepage'))
+    
         <!-- FONT AWESOME -->
-        <link rel="stylesheet" href="{{ asset('public/css/fontawesome-all.min.css') }}">
+        <link rel="stylesheet" href="{{asset('public/css/fontawesome-all.min.css')}}">
         <link rel="stylesheet" href="{{ asset('public/css/owl.carousel.min.css') }}">
         <link rel="stylesheet" href="{{ asset('public/css/bootstrap.css') }}">
         
@@ -24,6 +25,7 @@
 
         <link rel="stylesheet" href="{{ asset('public/css/magnific-popup.css') }}">
         <link rel="stylesheet" href="{{ asset('public/css/slick.css') }}">
+
 
     @endif
 
@@ -84,6 +86,7 @@
             <script src="{{ asset('public/js/leaflet.markercluster.js') }}"></script>
             <script src="{{ asset('public/js/map4.js') }}"></script>
             <script src="{{ asset('public/js/color-switcher.js') }}"></script>
+            
 
             <!-- Slider Revolution scripts -->
             <script src="{{ asset('public/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
