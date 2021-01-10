@@ -2469,7 +2469,7 @@ section.portfolio {
 
 .portfolio .homes-content .homes-list li {
   width: 45%;
-  float: left;
+  float: right;
   font-size: 14px;
   line-height: 40px;
   list-style: none;

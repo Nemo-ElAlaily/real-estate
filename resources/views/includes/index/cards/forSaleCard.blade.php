@@ -26,29 +26,29 @@
             <!-- homes content -->
             <div class="homes-content">
                 <!-- homes address -->
-                <h3><a href="#">Real House Luxury Villa</a></h3>
+                <h3 class="px-3"><a href="#">Real House Luxury Villa</a></h3>
                 <p class="homes-address mb-3">
                     <a href="#">
-                        <i class="fa fa-map-marker"></i><span>Est St, 77 - Central Park South,
+                        <i class="fa fa-map-marker px-2"></i><span>Est St, 77 - Central Park South,
                             NYC</span>
                     </a>
                 </p>
                 <!-- homes List -->
                 <ul class="homes-list clearfix">
                     <li>
-                        <i class="fa fa-bed" aria-hidden="true"></i>
+                        <i class="fa fa-bed px-2" aria-hidden="true"></i>
                         <span>6 Bedrooms</span>
                     </li>
                     <li>
-                        <i class="fa fa-bath" aria-hidden="true"></i>
+                        <i class="fa fa-bath px-2" aria-hidden="true"></i>
                         <span>3 Bathrooms</span>
                     </li>
                     <li>
-                        <i class="fa fa-object-group" aria-hidden="true"></i>
+                        <i class="fa fa-object-group px-2" aria-hidden="true"></i>
                         <span>720 sq ft</span>
                     </li>
                     <li>
-                        <i class="fas fa-warehouse" aria-hidden="true"></i>
+                        <i class="fas fa-warehouse px-2" aria-hidden="true"></i>
                         <span>2 Garages</span>
                     </li>
                 </ul>
@@ -59,22 +59,22 @@
                     </h3>
                     <div class="compare">
                         <a href="#" title="Compare">
-                            <i class="fas fa-exchange-alt"></i>
+                            <i class="fas fa-exchange-alt px-2"></i>
                         </a>
                         <a href="#" title="Share">
-                            <i class="fas fa-share-alt"></i>
+                            <i class="fas fa-share-alt px-2"></i>
                         </a>
                         <a href="#" title="Favorites">
-                            <i class="fa fa-heart-o"></i>
+                            <i class="fa fa-heart-o px-2"></i>
                         </a>
                     </div>
                 </div>
                 <div class="footer">
                     <a href="#">
-                        <i class="fa fa-user"></i> Jhon Doe
+                        <i class="fa fa-user px-2"></i> Jhon Doe
                     </a>
                     <span>
-                        <i class="fa fa-calendar"></i> 2 months ago
+                        <i class="fa fa-calendar px-2"></i> 2 months ago
                     </span>
                 </div>
             </div>
