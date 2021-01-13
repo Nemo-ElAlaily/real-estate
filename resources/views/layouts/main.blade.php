@@ -51,7 +51,7 @@
         
     </div>
 
-
+    @if(Route::is('homepage'))
         <!-- START PRELOADER -->
         <div id="preloader">
             <div id="status">
@@ -59,87 +59,81 @@
             </div>
         </div>
         <!-- END PRELOADER -->
+    @endif
 
 
-        @if(Route::is('homepage'))
-            <!-- ARCHIVES JS -->
-            <script src="{{ asset('public/js/jquery.min.js') }}"></script>
-            <script src="{{ asset('public/js/jquery-ui.js') }}"></script>
-            <script src="{{ asset('public/js/tether.min.js') }}"></script>
-            <script src="{{ asset('public/js/moment.js') }}"></script>
-            <script src="{{ asset('public/js/transition.min.js') }}"></script>
-            <script src="{{ asset('public/js/bootstrap.min.js') }}"></script>
-            <script src="{{ asset('public/js/mmenu.js') }}"></script>
-            <script src="{{ asset('public/js/slick.min.js') }}"></script>
+    @if(Route::is('homepage'))
+        <!-- ARCHIVES JS -->
+        <script src="{{ asset('public/js/jquery.min.js') }}"></script>
+        <script src="{{ asset('public/js/jquery-ui.js') }}"></script>
+        <script src="{{ asset('public/js/tether.min.js') }}"></script>
+        <script src="{{ asset('public/js/moment.js') }}"></script>
+        <script src="{{ asset('public/js/transition.min.js') }}"></script>
+        <script src="{{ asset('public/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('public/js/mmenu.js') }}"></script>
+        <script src="{{ asset('public/js/slick.min.js') }}"></script>
 
-            @if (LaravelLocalization::getCurrentLocaleDirection() == 'ltr' )
-                <script src="{{ asset('public/js/slick3.js') }}"></script>
-            @else
-                <script src="{{ asset('public/js/slick3-ar.js') }}"></script>
-            @endif
-            
-            <script src="{{ asset('public/js/fitvids.js') }}"></script>
-            <script src="{{ asset('public/js/jquery.waypoints.min.js') }}"></script>
-            <script src="{{ asset('public/js/jquery.counterup.min.js') }}"></script>
-            <script src="{{ asset('public/js/imagesloaded.pkgd.min.js') }}"></script>
-            <script src="{{ asset('public/js/isotope.pkgd.min.js') }}"></script>
-            <script src="{{ asset('public/js/smooth-scroll.min.js') }}"></script>
-            <script src="{{ asset('public/js/lightcase.js') }}"></script>
-            <script src="{{ asset('public/js/owl.carousel.js') }}"></script>
-            <script src="{{ asset('public/js/jquery.magnific-popup.min.js') }}"></script>
-            <script src="{{ asset('public/js/ajaxchimp.min.js') }}"></script>
-            <script src="{{ asset('public/js/newsletter.js') }}"></script>
-            <script src="{{ asset('public/js/jquery.form.js') }}"></script>
-            <script src="{{ asset('public/js/jquery.validate.min.js') }}"></script>
-            <script src="{{ asset('public/js/forms-2.js') }}"></script>
-            <script src="{{ asset('public/js/leaflet.js') }}"></script>
-            <script src="{{ asset('public/js/leaflet-gesture-handling.min.js') }}"></script>
-            <script src="{{ asset('public/js/leaflet-providers.js') }}"></script>
-            <script src="{{ asset('public/js/leaflet.markercluster.js') }}"></script>
-            <script src="{{ asset('public/js/map4.js') }}"></script>
-            <script src="{{ asset('public/js/color-switcher.js') }}"></script>
-            
-
-            <!-- Slider Revolution scripts -->
-            <script src="{{ asset('public/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
-            <script src="{{ asset('public/revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
-            <script src="{{ asset('public/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
-            <script src="{{ asset('public/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
-            <script src="{{ asset('public/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
-            <script src="{{ asset('public/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
-            <script src="{{ asset('public/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
-            <script src="{{ asset('public/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
-            <script src="{{ asset('public/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
-            <script src="{{ asset('public/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
-            <script src="{{ asset('public/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
-
-            <!-- MAIN JS -->
-
-            @if (LaravelLocalization::getCurrentLocaleDirection() == 'ltr' )
-                <script src="{{ asset('public/js/script.js') }}"></script>  
-            @else
-                <script src="{{ asset('public/js/script-ar.js') }}"></script>  
-            @endif
-            
-        @elseif(Route::is('login') || Route::is('register'))
-            <!-- ARCHIVES JS -->
-            <script src="{{ asset('public/js/jquery.min.js') }}"></script>
-            <script src="{{ asset('public/js/tether.min.js') }}"></script>
-            <script src="{{ asset('public/js/bootstrap.min.js') }}"></script>
-            <script src="{{ asset('public/js/mmenu.min.js') }}"></script>
-            <script src="{{ asset('public/js/mmenu.js') }}"></script>
-            <script src="{{ asset('public/js/smooth-scroll.min.js') }}"></script>
-            <script src="{{ asset('public/js/ajaxchimp.min.js') }}"></script>
-            <script src="{{ asset('public/js/newsletter.js') }}"></script>
-            <script src="{{ asset('public/js/inner.js') }}"></script>
-
-            @if (LaravelLocalization::getCurrentLocaleDirection() == 'ltr' )
-                <script src="{{ asset('public/js/script.js') }}"></script>  
-            @else
-                <script src="{{ asset('public/js/script-ar.js') }}"></script>  
-            @endif
-
+        @if (LaravelLocalization::getCurrentLocaleDirection() == 'ltr' )
+            <script src="{{ asset('public/js/slick3.js') }}"></script>
+        @else
+            <script src="{{ asset('public/js/slick3-ar.js') }}"></script>
         @endif
+        
+        <script src="{{ asset('public/js/fitvids.js') }}"></script>
+        <script src="{{ asset('public/js/jquery.waypoints.min.js') }}"></script>
+        <script src="{{ asset('public/js/jquery.counterup.min.js') }}"></script>
+        <script src="{{ asset('public/js/imagesloaded.pkgd.min.js') }}"></script>
+        <script src="{{ asset('public/js/isotope.pkgd.min.js') }}"></script>
+        <script src="{{ asset('public/js/smooth-scroll.min.js') }}"></script>
+        <script src="{{ asset('public/js/lightcase.js') }}"></script>
+        <script src="{{ asset('public/js/owl.carousel.js') }}"></script>
+        <script src="{{ asset('public/js/jquery.magnific-popup.min.js') }}"></script>
+        <script src="{{ asset('public/js/ajaxchimp.min.js') }}"></script>
+        <script src="{{ asset('public/js/newsletter.js') }}"></script>
+        <script src="{{ asset('public/js/jquery.form.js') }}"></script>
+        <script src="{{ asset('public/js/jquery.validate.min.js') }}"></script>
+        <script src="{{ asset('public/js/forms-2.js') }}"></script>
+        <script src="{{ asset('public/js/leaflet.js') }}"></script>
+        <script src="{{ asset('public/js/leaflet-gesture-handling.min.js') }}"></script>
+        <script src="{{ asset('public/js/leaflet-providers.js') }}"></script>
+        <script src="{{ asset('public/js/leaflet.markercluster.js') }}"></script>
+        <script src="{{ asset('public/js/map4.js') }}"></script>
+        <script src="{{ asset('public/js/color-switcher.js') }}"></script>
+        
+
+        <!-- Slider Revolution scripts -->
+        <script src="{{ asset('public/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
+        <script src="{{ asset('public/revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
+        <script src="{{ asset('public/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
+        <script src="{{ asset('public/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
+        <script src="{{ asset('public/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+        <script src="{{ asset('public/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+        <script src="{{ asset('public/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
+        <script src="{{ asset('public/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+        <script src="{{ asset('public/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+        <script src="{{ asset('public/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+        <script src="{{ asset('public/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
+
+        <!-- MAIN JS -->
+
+        @if (LaravelLocalization::getCurrentLocaleDirection() == 'ltr' )
+            <script src="{{ asset('public/js/script.js') }}"></script>  
+        @else
+            <script src="{{ asset('public/js/script-ar.js') }}"></script>  
+        @endif
+        
+    @elseif(Route::is('login') || Route::is('register'))
+        <!-- ARCHIVES JS -->
+        <script src="{{ asset('public/js/jquery.min.js') }}"></script>
+        <script src="{{ asset('public/js/tether.min.js') }}"></script>
+        <script src="{{ asset('public/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('public/js/mmenu.min.js') }}"></script>
+        <script src="{{ asset('public/js/mmenu.js') }}"></script>
+        <script src="{{ asset('public/js/smooth-scroll.min.js') }}"></script>
+        <script src="{{ asset('public/js/ajaxchimp.min.js') }}"></script>
+        <script src="{{ asset('public/js/newsletter.js') }}"></script>
+        <script src="{{ asset('public/js/inner.js') }}"></script>
+    @endif
 
 </body>
 </html>
