@@ -16,8 +16,8 @@
         <div class="top-social hidden-sm-down">
             <div class="login-wrap m-auto">
                 <ul class="d-flex">
-                    <li><a href="login.html"><i class="fa fa-user"></i> {{ __('header.login') }}</a></li>
-                    <li><a href="register.html"><i class="fa fa-sign-in-alt"></i> {{ __('header.register')}}</a></li>
+                    <li><a href="{{ route('login') }}"><i class="fa fa-user"></i> {{ __('header.login') }}</a></li>
+                    <li><a href="{{ route('register') }}"><i class="fa fa-sign-in-alt"></i> {{ __('header.register')}}</a></li>
                 </ul>
             </div>
             <div class="social-icons-header m-auto">

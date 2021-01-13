@@ -9381,6 +9381,7 @@ section.visited-cities {
 
 .visited-cities .starts .fa {
   color: #fe4f4f !important;
+  transform: rotateY(180deg);
 }
 
 .visited-cities .starts ul {

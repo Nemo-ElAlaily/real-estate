@@ -11,5 +11,3 @@
 @include('includes.index.tips')
 
 @include('includes.footer.partners')
-
-@include('includes.footer.footer')

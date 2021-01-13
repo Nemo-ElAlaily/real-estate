@@ -5,7 +5,7 @@
         <div class="col-lg-9">
             <!-- Logo -->
             <div id="logo">
-                <a href="index.html"><img src="{{ asset('public/images/logo.svg') }}" alt=""></a>
+                <a href="{{ route('homepage')}}"><img src="{{ asset('public/images/logo.svg') }}" alt=""></a>
             </div>
             <!-- Mobile Navigation -->
             <div class="mmenu-trigger">

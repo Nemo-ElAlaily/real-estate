@@ -21,5 +21,13 @@ Route::group(['prefix' => LaravelLocalization::setLocale()], function()
         Route::get('/', function () {
             return view('index');
         })->name('homepage');
+
+        Route::get('/login', function () {
+            return view('login');
+        })->name('login');
+
+        Route::get('/register', function () {
+            return view('register');
+        })->name('register');
     });
 });

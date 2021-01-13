@@ -7,4 +7,6 @@
 
     @include('includes.index.index')
 
+    @include('includes.footer.footer')
+    
 @endsection
