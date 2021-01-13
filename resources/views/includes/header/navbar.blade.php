@@ -21,7 +21,7 @@
             <!-- Main Navigation -->
             <nav id="navigation" class="style-1">
                 <ul id="responsive">
-                    <li><a class="current" href="#">{{ __('header.Home')}}</a></li>
+                    <li><a class="current" href="{{ route('homepage')}}">{{ __('header.Home')}}</a></li>
                     <li><a href="#">{{ __('header.Properties')}}</a></li>
                     <li><a href="#">{{ __('header.Agencies')}}</a></li>
                     <li><a href="#">{{ __('header.Blog')}}</a></li>

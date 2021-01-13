@@ -29,5 +29,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale()], function()
         Route::get('/register', function () {
             return view('register');
         })->name('register');
+
+        Route::get('/properties', function () {
+            return view('properties');
+        })->name('properties');
+        
     });
 });

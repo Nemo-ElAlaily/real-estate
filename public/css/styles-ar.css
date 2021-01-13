@@ -11025,7 +11025,7 @@ a.button,
   line-height: 52px;
   color: #121B22;
   display: inline-block;
-  padding-right: 20px;
+  padding-left: 20px;
   border-radius: 3px 0 0 3px;
   margin: 0 0 0;
   font-weight: 600;
@@ -11039,7 +11039,7 @@ a.button,
   background: #121B22;
   width: 50px;
   text-align: center;
-  margin-right: 8px;
+  margin-left: 8px;
   display: inline-block;
   border-radius: 3px 0 0 3px;
   position: relative;
@@ -11094,7 +11094,7 @@ a.button,
 }
 .inner-pages .blog .block-heading .sorting-options {
   margin: 10px 15px 0 0;
-  text-align: right;
+  text-align: left;
 }
 
 .inner-pages .blog .block-heading .sorting {
@@ -11180,7 +11180,7 @@ a.button,
 }
 
 .inner-pages .blog .section-heading .media .media-left {
-  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .inner-pages .blog .section-heading .media .media-body h5::after {
@@ -16741,7 +16741,7 @@ a.btn_1 {
 .inner-pages .recent-img img {
   width: 90px;
   height: 70px;
-  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .inner-pages .info-img h6 {

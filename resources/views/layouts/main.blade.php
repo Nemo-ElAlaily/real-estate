@@ -39,6 +39,22 @@
         @endif
         
         <link rel="stylesheet" id="color" href="{{ asset('public/css/default.css') }}">
+    
+    @elseif(Route::is('properties'))
+        <link rel="stylesheet" href="{{ asset('public/css/jquery-ui.css') }}">
+        <link rel="stylesheet" href="{{ asset('public/css/animate.css') }}">
+        <link rel="stylesheet" href="{{ asset('public/css/magnific-popup.css') }}">
+        <link rel="stylesheet" href="{{ asset('public/css/lightcase.css') }}">
+        <link rel="stylesheet" href="{{ asset('public/css/owl.carousel.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('public/css/bootstrap.css') }}">
+        @if(LaravelLocalization::getCurrentLocaleDirection() == 'ltr' )
+            <link rel="stylesheet" href="{{ asset('public/css/menu.css') }}">
+            <link rel="stylesheet" href="{{ asset('public/css/styles.css') }}">
+        @else
+            <link rel="stylesheet" href="{{ asset('public/css/menu-ar.css') }}">
+            <link rel="stylesheet" href="{{ asset('public/css/styles-ar.css') }}">
+        @endif
+        <link rel="stylesheet" id="color" href="{{ asset('public/css/default.css') }}">
     @endif
 
 
@@ -133,6 +149,24 @@
         <script src="{{ asset('public/js/ajaxchimp.min.js') }}"></script>
         <script src="{{ asset('public/js/newsletter.js') }}"></script>
         <script src="{{ asset('public/js/inner.js') }}"></script>
+    
+    @elseif(Route::is('properties'))
+            <!-- ARCHIVES JS -->
+            <script src="{{ asset('public/js/jquery.min.js') }}"></script>
+            <script src="{{ asset('public/js/jquery-ui.js') }}"></script>
+            <script src="{{ asset('public/js/range-slider.js') }}"></script>
+            <script src="{{ asset('public/js/tether.min.js') }}"></script>
+            <script src="{{ asset('public/js/bootstrap.min.js') }}"></script>
+            <script src="{{ asset('public/js/mmenu.min.js') }}"></script>
+            <script src="{{ asset('public/js/mmenu.js') }}"></script>
+            <script src="{{ asset('public/js/smooth-scroll.min.js') }}"></script>
+            <script src="{{ asset('public/js/lightcase.js') }}"></script>
+            <script src="{{ asset('public/js/light.js') }}"></script>
+            <script src="{{ asset('public/js/jquery.magnific-popup.min.js') }}"></script>
+            <script src="{{ asset('public/js/popup.js') }}"></script>
+            <script src="{{ asset('public/js/ajaxchimp.min.js') }}"></script>
+            <script src="{{ asset('public/js/newsletter.js') }}"></script>
+            <script src="{{ asset('public/js/inner.js') }}"></script>
     @endif
 
 </body>
